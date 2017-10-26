@@ -1,6 +1,6 @@
-# Store Application
+# Nigeria API
 
-A node app built with pug, express and node. Map stuff is in it.
+A node app built with Vanilla js (es6), express, node and mongodb.
 
 ## To use
 
