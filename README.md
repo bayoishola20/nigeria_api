@@ -4,7 +4,7 @@ A node app built with Vanilla js (es6), express, node and mongodb.
 
 ## To use
 
-* Clone the repo: `git clone https://github.com/bayoishola20/storeApp.git`
+* Clone the repo: `git clone https://github.com/bayoishola20/nigeria_api.git`
 
 * `npm install`
 
