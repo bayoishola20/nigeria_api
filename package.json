@@ -1,0 +1,33 @@
+{
+  "name": "nigeria_api",
+  "version": "1.0.0",
+  "description": "Useful APIs for Nigerians",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^4.10.8",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bayoishola20"
+  },
+  "keywords": [
+    "nodejs",
+    "nigeria",
+    "express",
+    "mongo",
+    "bayoishola20"
+  ],
+  "author": "bayoishola20",
+  "license": "MIT"
+}
