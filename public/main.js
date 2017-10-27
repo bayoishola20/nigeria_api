@@ -1,4 +1,4 @@
-const api = "http://localhost:3000/nigeria_api/state";
+const api = "https://nigeria-api.herokuapp.com/nigeria_api/state";
 
 const states = [];
 
