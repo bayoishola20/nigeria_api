@@ -2,6 +2,9 @@
 
 A node app built with Vanilla js (es6), express, node and mongodb.
 
+![Preview](https://github.com/bayoishola20/nigeria_api/blob/master/public/bayoishola20_nigeria_api.png "Preview")
+
+
 ## To use
 
 * Clone the repo: `git clone https://github.com/bayoishola20/nigeria_api.git`
@@ -17,6 +20,7 @@ A node app built with Vanilla js (es6), express, node and mongodb.
 ## Sample Data and Use
 
 `const api = 'insert api endpoint'`
+
 `const states = []`
 
 `fetch(api).then(blob => blob.json()).then(data => states.push(...data));`
