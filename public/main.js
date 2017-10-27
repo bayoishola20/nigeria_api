@@ -13,9 +13,20 @@ function findMatch(searchMatch, states) {
     });
 }
 
+
 function showMatch() {
     const matchArray = findMatch(this.value, states);
-    console.log(matchArray);
+    const html = matchArray.map(place => {
+        const regex = new RegExp(this.value, 'gi');
+        const stateName = place.state.replace(regex, `<span class="hightlight">${this.value}</span>`)
+        return `
+            <li>
+                <span class="name">${stateName}</span>
+                <span class="name">${place.capital}</span>
+            </li>
+        `;
+    }).join('');
+    searchDrop.innerHTML = html;
 }
 
 const stateSearch = document.querySelector('.stateSearch');
