@@ -16,7 +16,7 @@ A node app built with Vanilla js (es6), express, node and mongodb.
 
 ## Sample Data and Use
 
-`const api = ''` //This would be the api endpoint
+`const api = 'insert api endpoint'`
 `const states = []`
 
 `fetch(api).then(blob => blob.json()).then(data => states.push(...data));`
