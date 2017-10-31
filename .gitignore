@@ -36,3 +36,4 @@ typings/
 .yarn-integrity
 
 # database file
+config/database.js

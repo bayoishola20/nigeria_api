@@ -42,6 +42,6 @@ A node app built with Vanilla js (es6), express, node and mongodb.
 
 PS: I had to rollback jsonwebtoken due to sign payload issues: `"jsonwebtoken": "^7.4.3",`
 
-Visit project url: `https://nigeria-api.herokuapp.com/`
+Visit project url: [https://nigeria-api.herokuapp.com/](https://nigeria-api.herokuapp.com/) ``
 
 [bayoishola20](github.bayoishola20.io)
